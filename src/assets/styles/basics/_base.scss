@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    // font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    // color: $clr3;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    // font-family: 'Montserrat', sans-serif;
+    font-size: rem(16px);
+    margin: 0;
+    margin: auto;
+    background-color: $clr1;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    // font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
