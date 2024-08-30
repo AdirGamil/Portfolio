@@ -11,7 +11,7 @@ export function RootCmp() {
         <AniHeader/>
         <main>
           <Routes>
-            <Route path="" element={<AniIndex />} />
+            <Route path="/" element={<AniIndex />} />
           </Routes>
         </main>
         <AniFooter/>

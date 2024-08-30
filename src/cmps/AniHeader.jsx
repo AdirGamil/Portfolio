@@ -36,7 +36,7 @@ export function AniHeader() {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/mangas"
+              to="#hero"
               className={({ isActive }) =>
                 isActive ? 'active-link' : 'inactive-link'
               }

@@ -1,4 +1,4 @@
-export function AniList() {
+export function AniTech() {
     return (
         <div>
            hello from AniList

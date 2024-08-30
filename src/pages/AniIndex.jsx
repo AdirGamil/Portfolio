@@ -1,7 +1,7 @@
+import { AniHero } from "../cmps/AniHero"
+
 export function AniIndex() {
     return (
-        <div>
-           hello from AniIndex
-        </div>
+        <AniHero/>
     )
 }

@@ -1,0 +1,30 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+
+  .hero-txt {
+    text-align: center;
+
+    .hero-h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+
+      .fullname {
+        color: red;
+      }
+    }
+  }
+
+  .hero-img {
+    .adir-hero-img {
+      border-radius: 50%;
+      border: 2px solid black;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
