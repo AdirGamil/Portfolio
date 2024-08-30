@@ -1,56 +1,39 @@
 .main-header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   margin-top: rem(20px);
-
   .header-logo {
-    // Styles for the logo container
-
     .logo-img {
-      // Styles for the logo image
     }
   }
 
   nav {
-    font-size: rem(20px);
     .nav-list {
-      display: flex;
-      flex-direction: row;
-      gap: rem(35px);
+      display: none;
 
       .nav-item {
-        // Styles for each nav item
+        &:hover {
+        }
 
         .active-link {
-          font-weight: bold;
-          // Styles for the active link
         }
 
         .inactive-link {
-          color: $clr-p-txt;
-          // Styles for the inactive link
         }
       }
     }
   }
 
   .social-header-icon {
-    display: flex;
-    gap: rem(10px);
+    display: none;
 
     .header-icon {
-      transition: transform 0.3s ease; 
-
       &:hover {
-        transform: scale(1.2); 
-
         .github-icon {
-          // Additional styles for GitHub icon on hover (if needed)
         }
 
         .linkedin-icon {
-          // Additional styles for LinkedIn icon on hover (if needed)
         }
       }
     }

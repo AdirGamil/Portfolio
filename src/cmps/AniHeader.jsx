@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { HamburgerMenu } from './HamburgerMenu'
 
 export function AniHeader() {
   return (
@@ -10,7 +11,7 @@ export function AniHeader() {
           className="logo-img"
         />
       </NavLink>
-
+      <HamburgerMenu />
       <nav>
         <ul className="nav-list">
           <li className="nav-item">
@@ -65,23 +66,26 @@ export function AniHeader() {
           </li>
         </ul>
       </nav>
-      
-      <div className='social-header-icon'>
-      <NavLink to="https://github.com/AdirGamil" className="header-icon">
-        <img
-          src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1724941066/Vector_ywcalo.svg"
-          alt="Github icon"
-          className="github-icon"
+
+      <div className="social-header-icon">
+        <NavLink to="https://github.com/AdirGamil" className="header-icon">
+          <img
+            src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1724941066/Vector_ywcalo.svg"
+            alt="Github icon"
+            className="github-icon"
           />
-      </NavLink>
-      <NavLink to="https://www.linkedin.com/in/adirg/" className="header-icon">
-        <img
-          src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1724941066/entypo-social_linkedin-with-circle_p9yrvm.svg"
-          alt="Linkedin"
-          className="linkein-icon"
+        </NavLink>
+        <NavLink
+          to="https://www.linkedin.com/in/adirg/"
+          className="header-icon"
+        >
+          <img
+            src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1724941066/entypo-social_linkedin-with-circle_p9yrvm.svg"
+            alt="Linkedin"
+            className="linkein-icon"
           />
-      </NavLink>
-          </div>
+        </NavLink>
+      </div>
     </header>
   )
 }
