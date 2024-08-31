@@ -1,7 +1,11 @@
-import { AniHero } from "../cmps/AniHero"
+import { AniHero } from '../cmps/AniHero'
+import { AniTech } from '../cmps/AniTech'
 
 export function AniIndex() {
-    return (
-        <AniHero/>
-    )
+  return (
+    <section>
+      <AniHero />
+      <AniTech />
+    </section>
+  )
 }
