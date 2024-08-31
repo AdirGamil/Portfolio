@@ -8,13 +8,15 @@
 @import 'basics/base';
 
 // Cmps
+@import 'cmps/HamburgerMenu';
 @import 'cmps/AniHeader';
 @import 'cmps/AniHero';
 @import 'cmps/AniTech';
-@import 'cmps/HamburgerMenu';
+@import 'cmps/AniProjects';
 
 //* Media Queries (MQ)
 // @import 'mq/mq-general';
 @import 'mq/mq-AniHeader';
 @import 'mq/mq-AniHero';
 @import 'mq/mq-AniTech';
+@import 'mq/mq-AniProjects';

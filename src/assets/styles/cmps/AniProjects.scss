@@ -1,0 +1,65 @@
+.projects-section {
+  
+    .projects-header {
+    
+  
+      .projects-title {
+       font-size: rem(24px);
+      }
+  
+      .projects-subtitle {
+        color: $clr-p-txt;
+        
+    }
+}
+
+.projects-list {
+    
+    
+    .projects-item {
+        
+        
+        .projects-image {
+            width: 350px;
+            height: 250px;
+        }
+        
+        .project-name {
+            
+        }
+        
+        .project-description {
+            color: $clr-p-txt;
+            
+        }
+  
+        .project-tech-stack {
+        
+  
+          span {
+            font-weight: bold;
+          }
+        }
+  
+        .project-links {
+         
+  
+          .project-link {
+           
+  
+            .project-link-icon {
+            //   
+            }
+  
+            .project-link-text {
+       
+  
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+    }

@@ -33,13 +33,6 @@ export function AniTech() {
           </li>
           <li className="tech-list-item">
             <img
-              src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1725100013/bootstrap5_cv14t4.svg"
-              alt="Bootstrap Logo"
-              className="tech-list-img"
-            />
-          </li>
-          <li className="tech-list-item">
-            <img
               src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1725100013/js_vjrjkn.svg"
               alt="JavaScript Logo"
               className="tech-list-img"

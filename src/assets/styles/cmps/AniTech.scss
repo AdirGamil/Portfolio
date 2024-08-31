@@ -1,0 +1,40 @@
+.tech-container {
+  .tech-txt {
+    text-align: center;
+    margin-bottom: rem(32px);
+
+    .tech-h1 {
+      font-size: rem(32px);
+      margin-bottom: rem(16px);
+    }
+
+    .tech-h3 {
+      font-size: rem(19.2px);
+      color: $clr-p-txt;
+    }
+  }
+
+  .tech-list {
+    .tech-list-ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+
+    .tech-list-item {
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: translateY(rem(-5px));
+      }
+
+      .tech-list-img {
+        width: rem(80px);
+        height: rem(80px);
+      }
+    }
+  }
+}

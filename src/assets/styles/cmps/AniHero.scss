@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding: rem(32px);
 
   .hero-txt {
     text-align: center;
 
     .hero-h1 {
-      font-size: 2.5rem;
+      font-size: rem(40px);
+      height: rem(250px);
       line-height: 1.2;
 
       .fullname {
@@ -20,11 +21,11 @@
   .hero-img {
     .adir-hero-img {
       border-radius: 50%;
-      border: 2px solid black;
-      width: 150px;
-      height: 150px;
+      border: rem(2px) solid black;
+      width: rem(150px);
+      height: rem(150px);
       object-fit: cover;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 rem(4px) rem(10px) rgba(0, 0, 0, 0.2);
     }
   }
 }
