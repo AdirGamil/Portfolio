@@ -4,11 +4,42 @@ const projects = [
     description:
       'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
     techStack: 'HTML, JavaScript, SASS, React',
-    liveLink: 'chain',
-    codeLink: 'github',
+    liveLink: 'https://stayflex.onrender.com/',
+    codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
     imgSrc:
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
   },
+  {
+    name: 'StayFlex (Airbnb clone)',
+    description:
+      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
+    techStack: 'HTML, JavaScript, SASS, React',
+    liveLink: 'https://stayflex.onrender.com/',
+    codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
+  },
+  {
+    name: 'StayFlex (Airbnb clone)',
+    description:
+      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
+    techStack: 'HTML, JavaScript, SASS, React',
+    liveLink: 'https://stayflex.onrender.com/',
+    codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
+  },
+  {
+    name: 'StayFlex (Airbnb clone)',
+    description:
+      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
+    techStack: 'HTML, JavaScript, SASS, React',
+    liveLink: 'https://stayflex.onrender.com/',
+    codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
+  },
+  
 ]
 
 export function AniProjects() {

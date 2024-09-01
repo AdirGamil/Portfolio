@@ -15,66 +15,69 @@
     ul {
       padding-inline-start: 0;
     }
-    .projects-item {
-      width: rem(350px);
-      height: rem(520px);
-      background-color: white;
-      border-radius: rem(25px);
-      box-shadow: 0 rem(4px) rem(8px) rgba(0, 0, 0, 0.1);
-
-      .projects-image {
+    .projects-items {
+      .projects-item {
+        margin-block-end: rem(20px);
         width: rem(350px);
-        height: rem(250px);
-        border-top-left-radius: rem(25px);
-        border-top-right-radius: rem(25px);
-        object-fit: cover;
-      }
+        height: rem(520px);
+        background-color: white;
+        border-radius: rem(25px);
+        box-shadow: 0 rem(4px) rem(8px) rgba(0, 0, 0, 0.1);
 
-      .project-name {
-        text-align: center;
-        font-size: rem(20px);
-        font-weight: bold;
-      }
+        .projects-image {
+          width: rem(350px);
+          height: rem(250px);
+          border-top-left-radius: rem(25px);
+          border-top-right-radius: rem(25px);
+          object-fit: cover;
+        }
 
-      .project-description {
-        color: $clr-p-txt;
-        font-size: rem(14px);
-
-        padding: 0 rem(16px);
-        text-align: center;
-      }
-
-      .project-tech-stack {
-        margin-block-start: rem(28px);
-        font-size: rem(14px);
-        text-align: center;
-
-        span {
-          color: $clr-h-txt;
+        .project-name {
+          text-align: center;
+          font-size: rem(20px);
           font-weight: bold;
         }
-      }
 
-      .project-links {
-        display: flex;
-        justify-content: space-evenly;
-        margin-block-start: rem(38px);
+        .project-description {
+          color: $clr-p-txt;
+          font-size: rem(14px);
 
-        .project-link {
-          display: flex;
-          font-weight: bold;
+          padding: 0 rem(16px);
+          text-align: center;
+        }
 
-          .project-link-icon {
-            object-fit: contain;
-            width: rem(20px);
-            height: rem(20px);
+        .project-tech-stack {
+          margin-block-start: rem(28px);
+          font-size: rem(14px);
+          text-align: center;
+
+          span {
+            color: $clr-h-txt;
+            font-weight: bold;
           }
+        }
 
-          .project-link-text {
-            margin-inline-start: rem(10px);
+        .project-links {
+          display: flex;
+          justify-content: space-evenly;
+          margin-block-start: rem(38px);
 
-            &:hover {
-              text-decoration: underline;
+          .project-link {
+            display: flex;
+            font-weight: bold;
+
+            .project-link-icon {
+              object-fit: contain;
+              width: rem(20px);
+              height: rem(20px);
+            }
+
+            .project-link-text {
+              margin-inline-start: rem(10px);
+
+              &:hover {
+                text-decoration: underline;
+              }
             }
           }
         }

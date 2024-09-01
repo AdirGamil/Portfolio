@@ -1,0 +1,147 @@
+
+@media (min-width: 768px) {
+    .projects-section {
+      .projects-header {
+        margin-block-end: rem(30px);
+        .projects-title {
+            font-size: rem(36px);
+        }
+  
+        .projects-subtitle {
+            font-size: rem(21.6px);
+        }
+      }
+  
+      .projects-list {
+        .projects-items {
+            display: grid;
+            grid-template-columns: repeat(2, rem(350px));
+            justify-content: center;
+            gap: rem(35px);
+          .projects-item {
+            height: rem(550px);
+            .projects-image {
+            }
+  
+            .project-name {
+                font-size: rem(24px);
+            }
+            
+            .project-description {
+                font-size: rem(18px);
+            }
+            
+            .project-tech-stack {
+                font-size: rem(16px);
+                margin-block-start: rem(12px);
+              span {
+              }
+            }
+  
+            .project-links {
+                margin-block-start: rem(20px);
+              .project-link {
+                .project-link-icon {
+                }
+  
+                .project-link-text {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projects-section {
+      .projects-header {
+        .projects-title {
+            font-size: rem(40px);
+        }
+        
+        .projects-subtitle {
+            font-size: rem(24px);
+        }
+      }
+  
+      .projects-list {
+        .projects-items {
+            grid-template-columns: repeat(4, rem(350px));
+            gap: rem(45px);
+          .projects-item {
+            .projects-image {
+            }
+  
+            .project-name {
+            }
+  
+            .project-description {
+            }
+  
+            .project-tech-stack {
+              span {
+              }
+            }
+  
+            .project-links {
+              .project-link {
+                .project-link-icon {
+                }
+  
+                .project-link-text {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .projects-section {
+      .projects-header {
+        .projects-title {
+            font-size: rem(44px);
+        }
+  
+        .projects-subtitle {
+            font-size: rem(26.4px);
+
+        }
+      }
+  
+      .projects-list {
+        .projects-items {
+            grid-template-columns: repeat(4, rem(350px));
+          .projects-item {
+            .projects-image {
+            }
+  
+            .project-name {
+            }
+  
+            .project-description {
+            }
+  
+            .project-tech-stack {
+              span {
+              }
+            }
+  
+            .project-links {
+              .project-link {
+                .project-link-icon {
+                }
+  
+                .project-link-text {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
