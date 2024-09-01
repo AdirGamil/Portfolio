@@ -1,6 +1,6 @@
 export function AniTech() {
   return (
-    <section className="tech-container">
+    <section className="tech-container" id="tech">
       <div className="tech-txt">
         <h1 className="tech-h1">My Tech Stack</h1>
         <h3 className="tech-h3">

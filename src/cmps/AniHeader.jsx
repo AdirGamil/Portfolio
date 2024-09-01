@@ -5,7 +5,8 @@ export function AniHeader() {
     <header className="main-header">
       <a href="#hero" className="header-logo">
         <img
-          src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1724940826/logo_1_i7ziuj.png"
+          // src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1725204235/ACodeLogo_g2co7f.jpg"
+          src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1725204307/b2fa1aa0-9a51-4bf3-ae08-dd842dad80b6_p7lwbj.png"
           alt="Adir Logo"
           className="logo-img"
         />
@@ -13,14 +14,14 @@ export function AniHeader() {
       <HamburgerMenu />
       <nav>
         <ul className="nav-list">
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <a href="#home" className="nav-link">Home</a>
           </li>
           <li className="nav-item">
-            <a href="#about" className="nav-link">About</a>
-          </li> */}
+            <a href="#hero" className="nav-link">About</a>
+          </li>
           <li className="nav-item">
-            <a href="#hero" className="nav-link">Tech Stack</a>
+            <a href="#tech" className="nav-link">Tech Stack</a>
           </li>
           <li className="nav-item">
             <a href="#projects" className="nav-link">Projects</a>
