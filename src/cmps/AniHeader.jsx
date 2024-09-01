@@ -1,90 +1,51 @@
-import { NavLink } from 'react-router-dom'
 import { HamburgerMenu } from './HamburgerMenu'
 
 export function AniHeader() {
   return (
     <header className="main-header">
-      <NavLink to="/" className="header-logo">
+      <a href="#hero" className="header-logo">
         <img
           src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1724940826/logo_1_i7ziuj.png"
           alt="Adir Logo"
           className="logo-img"
         />
-      </NavLink>
+      </a>
       <HamburgerMenu />
       <nav>
         <ul className="nav-list">
-          <li className="nav-item">
-            <NavLink
-              to="/groups"
-              className={({ isActive }) =>
-                isActive ? 'active-link' : 'inactive-link'
-              }
-            >
-              Home
-            </NavLink>
+          {/* <li className="nav-item">
+            <a href="#home" className="nav-link">Home</a>
           </li>
           <li className="nav-item">
-            <NavLink
-              to="/releases"
-              className={({ isActive }) =>
-                isActive ? 'active-link' : 'inactive-link'
-              }
-            >
-              About
-            </NavLink>
+            <a href="#about" className="nav-link">About</a>
+          </li> */}
+          <li className="nav-item">
+            <a href="#hero" className="nav-link">Tech Stack</a>
           </li>
           <li className="nav-item">
-            <NavLink
-              to="#hero"
-              className={({ isActive }) =>
-                isActive ? 'active-link' : 'inactive-link'
-              }
-            >
-              Tech Stack
-            </NavLink>
+            <a href="#projects" className="nav-link">Projects</a>
           </li>
           <li className="nav-item">
-            <NavLink
-              to="/animes"
-              className={({ isActive }) =>
-                isActive ? 'active-link' : 'inactive-link'
-              }
-            >
-              Projects
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              to="/animes"
-              className={({ isActive }) =>
-                isActive ? 'active-link' : 'inactive-link'
-              }
-            >
-              Contact
-            </NavLink>
+            <a href="#contact" className="nav-link">Contact</a>
           </li>
         </ul>
       </nav>
 
       <div className="social-header-icon">
-        <NavLink to="https://github.com/AdirGamil" className="header-icon">
+        <a href="https://github.com/AdirGamil" className="header-icon">
           <img
             src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1724941066/Vector_ywcalo.svg"
             alt="Github icon"
             className="github-icon"
           />
-        </NavLink>
-        <NavLink
-          to="https://www.linkedin.com/in/adirg/"
-          className="header-icon"
-        >
+        </a>
+        <a href="https://www.linkedin.com/in/adirg/" className="header-icon">
           <img
             src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1724941066/entypo-social_linkedin-with-circle_p9yrvm.svg"
             alt="Linkedin"
-            className="linkein-icon"
+            className="linkedin-icon"
           />
-        </NavLink>
+        </a>
       </div>
     </header>
   )

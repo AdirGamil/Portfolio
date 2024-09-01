@@ -44,7 +44,7 @@ const projects = [
 
 export function AniProjects() {
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="projects">
       <div className="projects-header">
         <h1 className="projects-title">Projects</h1>
         <h3 className="projects-subtitle">Things I’ve built so far</h3>
