@@ -2,7 +2,7 @@ const projects = [
   {
     name: 'StayFlex (Airbnb clone)',
     description:
-      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
+      'StayFlex is powered by a robust tech stack, including React, Redux, SASS, Node.js, Express, WebSockets, and MongoDB.',
     techStack: 'HTML, JavaScript, SASS, React',
     liveLink: 'https://stayflex.onrender.com/',
     codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
@@ -10,9 +10,19 @@ const projects = [
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
   },
   {
+    name: 'AdirGamil Portfolio',
+    description:
+      'Adir Gamil portfolio showcasing responsive design, dynamic hero section, tech stack, and featured projects.',
+    techStack: 'HTML, JavaScript, SASS, React',
+    liveLink: 'https://stayflex.onrender.com/',
+    codeLink: 'https://github.com/AdirGamil/Portfolio',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725205341/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-01_184152_zztvia.png',
+  },
+  {
     name: 'StayFlex (Airbnb clone)',
     description:
-      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
+      'StayFlex is powered by a robust tech stack, including React, Redux, SASS, Node.js, Express, WebSockets, and MongoDB.',
     techStack: 'HTML, JavaScript, SASS, React',
     liveLink: 'https://stayflex.onrender.com/',
     codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
@@ -20,26 +30,15 @@ const projects = [
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
   },
   {
-    name: 'StayFlex (Airbnb clone)',
+    name: 'AdirGamil Portfolio',
     description:
-      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
+    'Adir Gamil portfolio showcasing responsive design, dynamic hero section, tech stack, and featured projects.',
     techStack: 'HTML, JavaScript, SASS, React',
     liveLink: 'https://stayflex.onrender.com/',
-    codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
+    codeLink: 'https://github.com/AdirGamil/Portfolio',
     imgSrc:
-      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725205341/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-01_184152_zztvia.png',
   },
-  {
-    name: 'StayFlex (Airbnb clone)',
-    description:
-      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
-    techStack: 'HTML, JavaScript, SASS, React',
-    liveLink: 'https://stayflex.onrender.com/',
-    codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
-    imgSrc:
-      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
-  },
-  
 ]
 
 export function AniProjects() {
