@@ -1,65 +1,84 @@
 .projects-section {
-  
-    .projects-header {
-    
-  
-      .projects-title {
-       font-size: rem(24px);
-      }
-  
-      .projects-subtitle {
-        color: $clr-p-txt;
-        
-    }
-}
+  .projects-header {
+    text-align: center;
 
-.projects-list {
-    
-    
+    .projects-title {
+      font-size: rem(24px);
+    }
+
+    .projects-subtitle {
+      color: $clr-p-txt;
+    }
+  }
+
+  .projects-list {
+    ul {
+      padding-inline-start: 0;
+    }
     .projects-item {
-        
-        
-        .projects-image {
-            width: 350px;
-            height: 250px;
+      width: rem(350px);
+      height: rem(520px);
+      background-color: white;
+      border-radius: rem(25px);
+      box-shadow: 0 rem(4px) rem(8px) rgba(0, 0, 0, 0.1);
+
+      .projects-image {
+        width: rem(350px);
+        height: rem(250px);
+        border-top-left-radius: rem(25px);
+        border-top-right-radius: rem(25px);
+        object-fit: cover;
+      }
+
+      .project-name {
+        text-align: center;
+        font-size: rem(20px);
+        font-weight: bold;
+      }
+
+      .project-description {
+        color: $clr-p-txt;
+        font-size: rem(14px);
+
+        padding: 0 rem(16px);
+        text-align: center;
+      }
+
+      .project-tech-stack {
+        margin-block-start: rem(28px);
+        font-size: rem(14px);
+        text-align: center;
+
+        span {
+          color: $clr-h-txt;
+          font-weight: bold;
         }
-        
-        .project-name {
-            
-        }
-        
-        .project-description {
-            color: $clr-p-txt;
-            
-        }
-  
-        .project-tech-stack {
-        
-  
-          span {
-            font-weight: bold;
+      }
+
+      .project-links {
+        display: flex;
+        justify-content: space-evenly;
+        margin-block-start: rem(38px);
+
+        .project-link {
+          display: flex;
+          font-weight: bold;
+
+          .project-link-icon {
+            object-fit: contain;
+            width: rem(20px);
+            height: rem(20px);
           }
-        }
-  
-        .project-links {
-         
-  
-          .project-link {
-           
-  
-            .project-link-icon {
-            //   
-            }
-  
-            .project-link-text {
-       
-  
-              &:hover {
-                text-decoration: underline;
-              }
+
+          .project-link-text {
+            margin-inline-start: rem(10px);
+
+            &:hover {
+              text-decoration: underline;
             }
           }
         }
       }
     }
-    }
+  }
+}
