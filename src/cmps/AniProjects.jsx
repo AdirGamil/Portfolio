@@ -14,7 +14,7 @@ const projects = [
     description:
       'Adir Gamil portfolio showcasing responsive design, dynamic hero section, tech stack, and featured projects.',
     techStack: 'HTML, JavaScript, SASS, React',
-    liveLink: 'https://stayflex.onrender.com/',
+    liveLink: 'https://agport.netlify.app/',
     codeLink: 'https://github.com/AdirGamil/Portfolio',
     imgSrc:
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725205341/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-01_184152_zztvia.png',
@@ -34,7 +34,7 @@ const projects = [
     description:
     'Adir Gamil portfolio showcasing responsive design, dynamic hero section, tech stack, and featured projects.',
     techStack: 'HTML, JavaScript, SASS, React',
-    liveLink: 'https://stayflex.onrender.com/',
+    liveLink: 'https://agport.netlify.app/',
     codeLink: 'https://github.com/AdirGamil/Portfolio',
     imgSrc:
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725205341/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-01_184152_zztvia.png',
