@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react'
-import { NavLink } from 'react-router-dom'
 
 export function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false)
@@ -7,6 +6,10 @@ export function HamburgerMenu() {
 
   function toggleMenu() {
     setIsOpen(!isOpen)
+  }
+
+  function closeMenu() {
+    setIsOpen(false)
   }
 
   useEffect(() => {
@@ -36,24 +39,24 @@ export function HamburgerMenu() {
       </button>
       <ul className={`dropdown-menu ${isOpen ? 'open' : ''}`}>
         <li>
-          <NavLink to="/about" className="dropdown-item">
-          About
-          </NavLink>
+          <a href="#about" className="nav-link dropdown-item" onClick={closeMenu}>
+            About
+          </a>
         </li>
         <li>
-          <NavLink to="/services" className="dropdown-item">
-          Tech Stack
-          </NavLink>
+          <a href="#tech" className="nav-link dropdown-item" onClick={closeMenu}>
+            Tech Stack
+          </a>
         </li>
         <li>
-          <NavLink to="/contact" className="dropdown-item">
-          Projects
-          </NavLink>
+          <a href="#projects" className="nav-link dropdown-item" onClick={closeMenu}>
+            Projects
+          </a>
         </li>
         <li>
-          <NavLink to="/services" className="dropdown-item">
-          Contact
-          </NavLink>
+          <a href="#contact" className="nav-link dropdown-item" onClick={closeMenu}>
+            Contact
+          </a>
         </li>
       </ul>
     </nav>

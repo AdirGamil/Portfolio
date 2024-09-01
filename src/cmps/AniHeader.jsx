@@ -15,9 +15,6 @@ export function AniHeader() {
       <nav>
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="#home" className="nav-link">Home</a>
-          </li>
-          <li className="nav-item">
             <a href="#hero" className="nav-link">About</a>
           </li>
           <li className="nav-item">
