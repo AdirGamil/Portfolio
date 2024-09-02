@@ -20,24 +20,25 @@ const projects = [
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725205341/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-01_184152_zztvia.png',
   },
   {
-    name: 'StayFlex (Airbnb clone)',
+    name: 'AniWeather',
     description:
-      'StayFlex is powered by a robust tech stack, including React, Redux, SASS, Node.js, Express, WebSockets, and MongoDB.',
+      'React app fetching real-time weather data via OpenWeatherMap API with dynamic icons and responsive design.',
     techStack: 'HTML, JavaScript, SASS, React',
-    liveLink: 'https://stayflex.onrender.com/',
-    codeLink: 'https://github.com/AdirGamil/StayFlex-frontend',
+    liveLink: 'https://your-aniweather-live-link.com/',
+    codeLink: 'https://github.com/AdirGamil/AniWeather',
     imgSrc:
-      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725275811/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-02_141056_ngyckb.png',
   },
+
   {
-    name: 'AdirGamil Portfolio',
+    name: 'React-SASS-Starter',
     description:
-    'Adir Gamil portfolio showcasing responsive design, dynamic hero section, tech stack, and featured projects.',
+      'A boilerplate project for building fast, responsive React apps with Vite and SASS, ready for customization.',
     techStack: 'HTML, JavaScript, SASS, React',
     liveLink: 'https://agport.netlify.app/',
-    codeLink: 'https://github.com/AdirGamil/Portfolio',
+    codeLink: 'https://github.com/AdirGamil/React-SASS-Starter',
     imgSrc:
-      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725205341/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-01_184152_zztvia.png',
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725278379/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-02_145922_moquxk.png',
   },
 ]
 
