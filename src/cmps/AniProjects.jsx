@@ -10,7 +10,7 @@ const projects = [
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
   },
   {
-    name: 'AdirGamil Portfolio',
+    name: 'Portfolio',
     description:
       'Adir Gamil portfolio showcasing responsive design, dynamic hero section, tech stack, and featured projects.',
     techStack: 'HTML, JavaScript, SASS, React',
@@ -22,9 +22,9 @@ const projects = [
   {
     name: 'AniWeather',
     description:
-      'React app fetching real-time weather data via OpenWeatherMap API with dynamic icons and responsive design.',
+      'React app fetching real-time weather data with dynamic icons and responsive design using OpenWeatherMap API.',
     techStack: 'HTML, JavaScript, SASS, React',
-    liveLink: 'https://your-aniweather-live-link.com/',
+    liveLink: 'https://agweather-app.netlify.app/',
     codeLink: 'https://github.com/AdirGamil/AniWeather',
     imgSrc:
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725275811/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-02_141056_ngyckb.png',
@@ -33,9 +33,9 @@ const projects = [
   {
     name: 'React-SASS-Starter',
     description:
-      'A boilerplate project for building fast, responsive React apps with Vite and SASS, ready for customization.',
+      'React Starter for building fast, responsive React apps with Vite and SASS, fully customizable and easy to extend.',
     techStack: 'HTML, JavaScript, SASS, React',
-    liveLink: 'https://agport.netlify.app/',
+    liveLink: 'https://ag-react-starter.netlify.app/',
     codeLink: 'https://github.com/AdirGamil/React-SASS-Starter',
     imgSrc:
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725278379/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-02_145922_moquxk.png',
