@@ -59,7 +59,7 @@ export function HamburgerMenu() {
           </a>
         </li>
         <li>
-          <a href="AdirResume.pdf" className="nav-link dropdown-item resume-hamburger" download onClick={closeMenu}>
+          <a href="https://drive.google.com/uc?export=download&id=1Koi9uVM-8BETTZVuFFvVPVmxhxFkRcX2" className="nav-link dropdown-item resume-hamburger" download onClick={closeMenu}>
             Resume
           </a>
         </li>

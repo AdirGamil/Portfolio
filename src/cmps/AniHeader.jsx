@@ -27,7 +27,7 @@ export function AniHeader() {
             <a href="#contact" className="nav-link">Contact</a>
           </li>
           <li className="nav-item">
-            <a href="AdirResume.pdf" className="nav-link resume-btn" download>Resume</a>
+            <a href="https://drive.google.com/uc?export=download&id=1Koi9uVM-8BETTZVuFFvVPVmxhxFkRcX2" className="nav-link resume-btn" download>Resume</a>
           </li>
         </ul>
       </nav>
