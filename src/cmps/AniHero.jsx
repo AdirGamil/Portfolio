@@ -8,14 +8,18 @@ export function AniHero() {
           Hi 👋, My name is <span className="fullname">Adir Gamil</span>, I'm a{' '}
           <TypeAnimation
             sequence={[
-              'Full Stack Developer', // Types 'Full Stack Developer'
-              2000, // Waits 2 seconds
-              'Frontend Specialist', // Replaces with 'Frontend Specialist'
-              2000, // Waits 2 seconds
-              'Backend Engineer', // Replaces with 'Backend Engineer'
-              2000, // Waits 2 seconds
-              'JavaScript Expert', // Replaces with 'JavaScript Expert'
-              2000, // Waits 2 seconds
+              'Full Stack Developer',
+              2000,
+              'Lifelong Learner',
+              2000,
+              'Problem Solver',
+              2000,
+              'Team Player',
+              2000,
+              'Creative Thinker',
+              2000,
+              'Technology Enthusiast',
+              2000,
             ]}
             wrapper="span"
             repeat={Infinity}
