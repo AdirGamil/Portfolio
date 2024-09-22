@@ -58,6 +58,11 @@ export function HamburgerMenu() {
             Contact
           </a>
         </li>
+        <li>
+          <a href="AdirResume.pdf" className="nav-link dropdown-item resume-hamburger" download onClick={closeMenu}>
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   )
