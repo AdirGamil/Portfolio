@@ -1,7 +1,6 @@
 @media (min-width: 768px) {
   .hero-container {
-    margin-block-start: rem(100px);
-
+    
     .hero-txt {
       .hero-h1 {
         font-size: rem(40px);
@@ -11,8 +10,8 @@
     .hero-img {
       margin-top: 0;
       .adir-hero-img {
-        width: rem(200px);
-        height: rem(200px);
+        width: rem(250px);
+        height: rem(250px);
       }
     }
   }

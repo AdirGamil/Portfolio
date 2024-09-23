@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: rem(32px);
-
+  
   .hero-txt {
     text-align: center;
-
+    
     .hero-h1 {
       font-size: rem(40px);
+      padding: rem(18px);
       height: rem(200px);
       line-height: 1.2;
 
