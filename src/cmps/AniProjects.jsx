@@ -40,6 +40,26 @@ const projects = [
     imgSrc:
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725278379/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2024-09-02_145922_moquxk.png',
   },
+  {
+    name: 'React-TailwindCSS-Starter',
+    description:
+      'Starter template for fast, responsive React apps using Vite and TailwindCSS.',
+    techStack: 'HTML, JavaScript, TailwindCSS, React',
+    liveLink: 'https://ag-react-tailwindcss.netlify.app/',
+    codeLink: 'https://github.com/AdirGamil/react-tailwindcss-starter',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1730799289/starttttttt_uovuk6.png',
+  },
+  {
+    name: 'TailwindCSS Project',
+    description:
+      'Responsive component for displaying subscription plans with pricing and feature comparison in React.',
+    techStack: 'HTML, JavaScript, TailwindCSS, React',
+    liveLink: 'https://ag-tailwindproject.netlify.app/',
+    codeLink: 'https://github.com/AdirGamil/TailwindCSS-project',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1730791598/TailwindCSSProject_ufhvpw.png',
+  },
 ]
 
 export function AniProjects() {
@@ -71,7 +91,12 @@ export function AniProjects() {
                     alt="Live Preview Icon"
                     className="project-link-icon"
                   />
-                  <a href={project.liveLink} className="project-link-text">
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link-text"
+                  >
                     Live Preview
                   </a>
                 </div>
@@ -81,7 +106,12 @@ export function AniProjects() {
                     alt="GitHub Icon"
                     className="project-link-icon"
                   />
-                  <a href={project.codeLink} className="project-link-text">
+                  <a
+                    href={project.codeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link-text"
+                  >
                     View Code
                   </a>
                 </div>
