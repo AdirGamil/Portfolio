@@ -60,6 +60,16 @@ const projects = [
     imgSrc:
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1730791598/TailwindCSSProject_ufhvpw.png',
   },
+  {
+    name: 'Coupon System',
+    description:
+      'Manage users, coupons, and reports with ease using this responsive admin platform.',
+    techStack: 'HTML, JavaScript, TailwindCSS, React',
+    liveLink: 'https://ag-manage-system.netlify.app/',
+    codeLink: 'https://github.com/AdirGamil/ManagementSystem',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1731503893/projeeeeee_nydxfw.png',
+  },
 ]
 
 export function AniProjects() {
