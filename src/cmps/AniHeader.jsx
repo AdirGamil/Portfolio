@@ -15,19 +15,33 @@ export function AniHeader() {
       <nav>
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="#hero" className="nav-link">About</a>
+            <a href="#hero" className="nav-link">
+              About
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#tech" className="nav-link">Tech Stack</a>
+            <a href="#tech" className="nav-link">
+              Tech Stack
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#projects" className="nav-link">Projects</a>
+            <a href="#projects" className="nav-link">
+              Projects
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="nav-link">Contact</a>
+            <a href="#contact" className="nav-link">
+              Contact
+            </a>
           </li>
           <li className="nav-item">
-            <a href="https://drive.google.com/uc?export=download&id=1Koi9uVM-8BETTZVuFFvVPVmxhxFkRcX2" className="nav-link resume-btn" download>Resume</a>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1t47xg8L6wg0SJX0RbmYpIsy1sV3Gp0zU"
+              className="nav-link resume-btn"
+              download
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </nav>

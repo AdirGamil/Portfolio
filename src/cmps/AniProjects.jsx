@@ -51,7 +51,7 @@ const projects = [
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1730799289/starttttttt_uovuk6.png',
   },
   {
-    name: 'TailwindCSS Project',
+    name: 'Landing Page',
     description:
       'Responsive component for displaying subscription plans with pricing and feature comparison in React.',
     techStack: 'HTML, JavaScript, TailwindCSS, React',
@@ -64,7 +64,7 @@ const projects = [
     name: 'Coupon System',
     description:
       'Manage users, coupons, and reports with ease using this responsive admin platform.',
-    techStack: 'HTML, JavaScript, TailwindCSS, React',
+    techStack: 'HTML, JavaScript, React',
     liveLink: 'https://ag-manage-system.netlify.app/',
     codeLink: 'https://github.com/AdirGamil/ManagementSystem',
     imgSrc:
