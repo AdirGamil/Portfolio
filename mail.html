@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form</title>
+</head>
+<body>
+  <h1>Contact Us</h1>
+
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="text" name="title" placeholder="Subject" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    // התחברות עם ה־Public Key
+    (function () {
+      emailjs.init("esvGMYbotveSY1oH_"); // 🔁 החלף במפתח הציבורי שלך
+    })();
+
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const form = this;
+
+      // שליחה למנהל
+      emailjs.sendForm("service_mb61err", "template_lga172h", form)
+        .then(function () {
+          console.log("Message sent to admin!");
+
+          // שליחה ללקוח (Auto Reply)
+          emailjs.sendForm("service_mb61err", "template_co5b9zt", form)
+            .then(function () {
+              alert("Your message has been sent. A confirmation email has been sent to you.");
+              form.reset();
+            }, function (error) {
+              console.error("Auto-reply failed:", error);
+              alert("Message sent, but auto-reply failed.");
+            });
+
+        }, function (error) {
+          console.error("Failed to send message:", error);
+          alert("Failed to send message. Please try again.");
+        });
+    });
+  </script>
+</body>
+</html>
