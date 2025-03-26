@@ -39,27 +39,48 @@ export function HamburgerMenu() {
       </button>
       <ul className={`dropdown-menu ${isOpen ? 'open' : ''}`}>
         <li>
-          <a href="#about" className="nav-link dropdown-item" onClick={closeMenu}>
+          <a
+            href="#about"
+            className="nav-link dropdown-item"
+            onClick={closeMenu}
+          >
             About
           </a>
         </li>
         <li>
-          <a href="#tech" className="nav-link dropdown-item" onClick={closeMenu}>
+          <a
+            href="#tech"
+            className="nav-link dropdown-item"
+            onClick={closeMenu}
+          >
             Tech Stack
           </a>
         </li>
         <li>
-          <a href="#projects" className="nav-link dropdown-item" onClick={closeMenu}>
+          <a
+            href="#projects"
+            className="nav-link dropdown-item"
+            onClick={closeMenu}
+          >
             Projects
           </a>
         </li>
         <li>
-          <a href="#contact" className="nav-link dropdown-item" onClick={closeMenu}>
+          <a
+            href="#contact"
+            className="nav-link dropdown-item"
+            onClick={closeMenu}
+          >
             Contact
           </a>
         </li>
         <li>
-          <a href="https://drive.google.com/uc?export=download&id=1Koi9uVM-8BETTZVuFFvVPVmxhxFkRcX2" className="nav-link dropdown-item resume-hamburger" download onClick={closeMenu}>
+          <a
+            href="https://drive.google.com/uc?export=download&id=1t47xg8L6wg0SJX0RbmYpIsy1sV3Gp0zU"
+            className="nav-link dropdown-item resume-hamburger"
+            download
+            onClick={closeMenu}
+          >
             Resume
           </a>
         </li>
