@@ -10,6 +10,46 @@ const projects = [
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1725198000/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_krjdij.png',
   },
   {
+    name: 'AniZone Mern Project',
+    description:
+      'Manage profiles, reviews, watchlists, and live blog posts in a responsive anime social platform.',
+    techStack: 'HTML, JavaScript, TailwindCSS, React',
+    liveLink: 'https://anizone.co.il/',
+    codeLink: '',
+    imgSrc:
+      'https://res.cloudinary.com/drejchdwh/image/upload/v1742995900/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2025-03-26_153113_dngpzl.png',
+  },
+  {
+    name: 'Manage System',
+    description:
+      'Manage users, coupons, and reports with ease using this responsive admin platform.',
+    techStack: 'HTML, JavaScript, React',
+    liveLink: 'https://manage-system.adirg.dev/',
+    codeLink: 'https://github.com/AdirGamil/ManagementSystem',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1731503893/projeeeeee_nydxfw.png',
+  },
+  {
+    name: 'Worksapce Landing Page',
+    description:
+    'A clean, responsive landing page to promote your app and boost user engagement.',
+    techStack: 'HTML, JavaScript, React',
+    liveLink: 'https://workspacelanding.adirg.dev/',
+    codeLink: 'https://github.com/AdirGamil/nextjs-landingpage.git',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1743488502/nextjs_qhmbei.png',
+  },
+  {
+    name: 'Financial Landing Page',
+    description:
+      'Responsive component for displaying subscription plans with pricing and feature comparison in React.',
+    techStack: 'HTML, JavaScript, TailwindCSS, React',
+    liveLink: 'https://financial.adirg.dev/',
+    codeLink: 'https://github.com/AdirGamil/TailwindCSS-project',
+    imgSrc:
+      'https://res.cloudinary.com/dhweqnxgd/image/upload/v1730791598/TailwindCSSProject_ufhvpw.png',
+  },
+  {
     name: 'Portfolio',
     description:
       'Adir Gamil portfolio showcasing responsive design, dynamic hero section, tech stack, and featured projects.',
@@ -49,36 +89,6 @@ const projects = [
     codeLink: 'https://github.com/AdirGamil/react-tailwindcss-starter',
     imgSrc:
       'https://res.cloudinary.com/dhweqnxgd/image/upload/v1730799289/starttttttt_uovuk6.png',
-  },
-  {
-    name: 'Landing Page',
-    description:
-      'Responsive component for displaying subscription plans with pricing and feature comparison in React.',
-    techStack: 'HTML, JavaScript, TailwindCSS, React',
-    liveLink: 'https://ag-tailwindproject.netlify.app/',
-    codeLink: 'https://github.com/AdirGamil/TailwindCSS-project',
-    imgSrc:
-    'https://res.cloudinary.com/dhweqnxgd/image/upload/v1730791598/TailwindCSSProject_ufhvpw.png',
-  },
-  {
-    name: 'Coupon System',
-    description:
-    'Manage users, coupons, and reports with ease using this responsive admin platform.',
-    techStack: 'HTML, JavaScript, React',
-    liveLink: 'https://ag-manage-system.netlify.app/',
-    codeLink: 'https://github.com/AdirGamil/ManagementSystem',
-    imgSrc:
-    'https://res.cloudinary.com/dhweqnxgd/image/upload/v1731503893/projeeeeee_nydxfw.png',
-  },
-  {
-    name: 'AniZone Mern Project',
-    description:
-    'Manage profiles, reviews, watchlists, and live blog posts in a responsive anime social platform.',
-    techStack: 'HTML, JavaScript, TailwindCSS, React',
-    liveLink: 'https://anizone.co.il/',
-    codeLink: '',
-    imgSrc:
-      'https://res.cloudinary.com/drejchdwh/image/upload/v1742995900/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2025-03-26_153113_dngpzl.png',
   },
 ]
 
@@ -120,23 +130,23 @@ export function AniProjects() {
                     Live Preview
                   </a>
                 </div>
-                  {project.codeLink && (
-                    <div className="project-link">
-                      <img
-                        src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1725106045/akar-icons_github-fill_nc9cci.png"
-                        alt="GitHub Icon"
-                        className="project-link-icon"
-                      />
-                      <a
-                        href={project.codeLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="project-link-text"
-                      >
-                        View Code
-                      </a>
-                    </div>
-                  )}
+                {project.codeLink && (
+                  <div className="project-link">
+                    <img
+                      src="https://res.cloudinary.com/dhweqnxgd/image/upload/v1725106045/akar-icons_github-fill_nc9cci.png"
+                      alt="GitHub Icon"
+                      className="project-link-icon"
+                    />
+                    <a
+                      href={project.codeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="project-link-text"
+                    >
+                      View Code
+                    </a>
+                  </div>
+                )}
               </div>
             </li>
           ))}
